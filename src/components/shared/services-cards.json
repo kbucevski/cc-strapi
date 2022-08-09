@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_services_cards",
+  "info": {
+    "displayName": "Services_Cards",
+    "icon": "book-open"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

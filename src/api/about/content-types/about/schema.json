@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.banner"
+    },
+    "Team": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.team"
+    },
+    "Bottom_Button": {
+      "type": "string",
+      "required": true
+    },
+    "Bottom_Button_Link": {
+      "type": "string",
+      "required": true
+    },
+    "Bellow_Banner": {
+      "type": "richtext",
+      "required": true
+    },
+    "Above_Team": {
+      "type": "richtext",
+      "required": true
+    },
+    "Bellow_Team": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

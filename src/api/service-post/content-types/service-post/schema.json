@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "service_posts",
+  "info": {
+    "singularName": "service-post",
+    "pluralName": "service-posts",
+    "displayName": "Service-Post",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.banner"
+    },
+    "Services_Cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.services-cards"
+    },
+    "Main_Text": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

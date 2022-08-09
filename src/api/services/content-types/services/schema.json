@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "servicess",
+  "info": {
+    "singularName": "services",
+    "pluralName": "servicess",
+    "displayName": "Services",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.banner"
+    },
+    "Quote": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.quote"
+    },
+    "Bellow_Quote": {
+      "type": "string",
+      "required": true
+    },
+    "Programs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.development-programs"
+    },
+    "Bellow_Programs": {
+      "type": "string"
+    },
+    "Services_Cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.services-cards"
+    },
+    "Bellow_Banner": {
+      "type": "richtext",
+      "required": true
+    },
+    "Service_List": {
+      "type": "richtext"
+    }
+  }
+}

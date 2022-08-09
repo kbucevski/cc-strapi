@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "book_estimators",
+  "info": {
+    "singularName": "book-estimator",
+    "pluralName": "book-estimators",
+    "displayName": "Book-Estimator",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.banner"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_development_programs",
+  "info": {
+    "displayName": "Development_Programs",
+    "icon": "pen-nib"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

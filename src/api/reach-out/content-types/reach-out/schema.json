@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "reach_outs",
+  "info": {
+    "singularName": "reach-out",
+    "pluralName": "reach-outs",
+    "displayName": "Reach-Out",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.banner"
+    },
+    "Join_Button": {
+      "type": "string"
+    },
+    "Join_Button_Link": {
+      "type": "string"
+    },
+    "Left_Side_Text": {
+      "type": "richtext",
+      "required": true
+    },
+    "Under_Button_Text": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

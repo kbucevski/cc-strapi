@@ -1,0 +1,88 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.banner",
+      "required": true
+    },
+    "Main_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Quote1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.quote"
+    },
+    "Title_Bellow_Quote1": {
+      "type": "string",
+      "required": true
+    },
+    "Services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.services-banner",
+      "required": true
+    },
+    "Quote2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.quote"
+    },
+    "Bottom_Title": {
+      "type": "string",
+      "required": true
+    },
+    "Bottom_Button": {
+      "type": "string"
+    },
+    "Bottom_Button_Link": {
+      "type": "string",
+      "required": true
+    },
+    "Bellow_Banner": {
+      "type": "richtext",
+      "required": true
+    },
+    "Bellow_Services": {
+      "type": "richtext",
+      "required": true
+    },
+    "Infographic_Title": {
+      "type": "string",
+      "required": true
+    },
+    "Infographic_Subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "Main_Image_Mobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Main_Image_Alt": {
+      "type": "string"
+    }
+  }
+}

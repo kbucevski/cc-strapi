@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_shared_banners",
+  "info": {
+    "displayName": "Banner",
+    "icon": "chess-board",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "string",
+      "required": true
+    },
+    "Button": {
+      "type": "string",
+      "required": true
+    },
+    "Button_Link": {
+      "type": "string",
+      "required": true
+    },
+    "Video": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Above_Button": {
+      "type": "text"
+    },
+    "Title2": {
+      "type": "text"
+    }
+  }
+}
